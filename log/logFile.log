@@ -1,0 +1,6 @@
+
+Mar 03 2014 01:36:48.865 PM [LWJGL Renderer Thread] GuiGlobals.setInstance:116
+INFO : Initializing GuiGlobals with:com.simsilica.lemur.GuiGlobals@2154cecb
+
+Mar 03 2014 01:36:48.946 PM [LWJGL Renderer Thread] GuiGlobals.logBuildInfo:147
+INFO : Lemur build date:20131004
