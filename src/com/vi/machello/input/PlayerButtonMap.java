@@ -91,17 +91,17 @@ public final class PlayerButtonMap {
      */
     public void initializeDefaultMappings() {
         // Default key mappings
-        inputMapper.map(ATTACK, InputState.POSITIVE, KeyInput.KEY_I);//Attack 2
-        inputMapper.map(ATTACK, InputState.NEGATIVE, KeyInput.KEY_J);//Attack 1
+        inputMapper.map(ATTACK, InputState.Positive, KeyInput.KEY_I);//Attack 2
+        inputMapper.map(ATTACK, InputState.Negative, KeyInput.KEY_J);//Attack 1
         inputMapper.map(JUMP, KeyInput.KEY_K);
         inputMapper.map(DEFENSE, KeyInput.KEY_L);
         inputMapper.map(SPECIAL, KeyInput.KEY_I, KeyInput.KEY_J);
-        inputMapper.map(FOCUS, InputState.POSITIVE, KeyInput.KEY_R);//Focus Right
-        inputMapper.map(FOCUS, InputState.NEGATIVE, KeyInput.KEY_Q);//Focus Left
-        inputMapper.map(FOCUS, InputState.OFF, KeyInput.KEY_R, KeyInput.KEY_Q);//Turn off Focus
-        inputMapper.map(MOVE_V, InputState.POSITIVE, KeyInput.KEY_W);//Move Up
-        inputMapper.map(MOVE_V, InputState.NEGATIVE, KeyInput.KEY_S);//Move Down
-        inputMapper.map(MOVE_H, InputState.NEGATIVE, KeyInput.KEY_A);//Move Left
-        inputMapper.map(MOVE_H, InputState.POSITIVE, KeyInput.KEY_D);//Move Right
+        inputMapper.map(FOCUS, InputState.Positive, KeyInput.KEY_R);//Focus Right
+        inputMapper.map(FOCUS, InputState.Negative, KeyInput.KEY_Q);//Focus Left
+        inputMapper.map(FOCUS, InputState.Off, KeyInput.KEY_R, KeyInput.KEY_Q);//Turn off Focus
+        inputMapper.map(MOVE_V, InputState.Positive, KeyInput.KEY_W);//Move Up
+        inputMapper.map(MOVE_V, InputState.Negative, KeyInput.KEY_S);//Move Down
+        inputMapper.map(MOVE_H, InputState.Negative, KeyInput.KEY_A);//Move Left
+        inputMapper.map(MOVE_H, InputState.Positive, KeyInput.KEY_D);//Move Right
     }
 }

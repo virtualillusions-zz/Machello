@@ -13,7 +13,7 @@ import com.simsilica.es.EntitySet;
 import com.vi.machello.app.components.ApplicationPiece;
 import com.vi.machello.app.state.BaseAppState;
 import java.util.Iterator;
-
+   
 /**
  * The primary Entity Database The main entry point for retrieving entities and
  * components.
